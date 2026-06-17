@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grouping tags</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgba(150, 172, 112, 0.745);
+      margin: 0px;
+    }
+    header{
+      background-color: rgba(119, 173, 38, 0.791);
+      padding: 10px;
+      margin: 10px;
+    }
+    main{
+      background-color: rgba(108, 166, 19, 0.831);
+       padding: 10px;
+      margin: 10px;
+     border-radius: 14px 18px;
+     box-shadow: 2px 4px 3px 1px rgba(0, 0, 0, 0.479);
+    }
+    article{
+      background-color: rgba(107, 191, 107, 0.615);
+      padding: 5px;
+    }
+    article > aside{
+      background-color: rgb(90, 210, 90);
+    }
+    nav{
+      background-color: rgba(181, 245, 54, 0.712);
+      padding: 3px;
+     box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.452);
+    }
+    nav > a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin-right: 30px;
+    
+    }
+    nav > a:hover{
+      text-decoration: underline;
+      
+    }
+    footer{
+      background-color: black;
+      color: white;
+      text-align: center;padding: 4px;
+      margin: 0px;
+    }
+    footer > p{
+      margin: 0px;
+    }
+    div#bola{
+      border-radius: 50%;
+      background-color: black;
+      height: 100px;
+      width: 100px;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+<header>
+<h1>meu site</h1>
+<nav>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+</nav>
+</header>
+<main>
+<section id="assuntos">
+<p>bbbbbbbbbbbbbbbbbb</p>
+</section>
+<section id="noticias">
+  <article>
+    <h2>notícias sobre a copa</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad necessitatibus ratione praesentium corporis cupiditate voluptatum magni vel, assumenda id quos recusandae veritatis ducimus illo sequi commodi expedita quasi facere. Possimus!</p>
+<aside>
+  <p>escrito por mim</p>
+</aside>
+  </article>
+  <article>
+
+  </article>
+</section>
+</main>
+<footer>
+  <p>aaaaaaaaaaaaaaaa</p>
+</footer>
+<div id="bola"></div>
+
+</body>
+</html>
